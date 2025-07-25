@@ -2,5 +2,6 @@
 
 Repository for projects in the course.
 
-| Day | Project | Link |
-| :-: | ------- | ---- |
+| Day | Project         | Link |
+| :-: | --------------- | ---- |
+| 01  | Expanding Cards |      |

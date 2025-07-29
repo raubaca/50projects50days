@@ -46,6 +46,7 @@ body {
   transition: border 0.4s ease;
   &.active {
     border-color: var(--line-border-fill);
+    transition: border 0.4s ease 0.3s;
   }
 }
 

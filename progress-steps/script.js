@@ -14,13 +14,13 @@ const update = (action) => {
   progress.value = currentStep
 
   circles.forEach((circle, i) => {
-    if (i < currentStep + 1) {
+    if (i <= currentStep) {
       circle.classList.add('active')
     } else {
       circle.classList.remove('active')
     }
   })
 
-  prev.disabled = currentStep === 0
   next.disabled = currentStep === MAX
+  prev.disabled = currentStep === 0
 }

@@ -9,3 +9,5 @@ Repository for projects in the course.
 | 03  | Rotating Navigation | [Link](https://raubaca.github.io/50projects50days/rotating-navigation/) |
 | 04  | Hidden Search       | [Link](https://raubaca.github.io/50projects50days/hidden-search/)       |
 | 05  | Blurry Loading      | [Link](https://raubaca.github.io/50projects50days/blurry-loading/)      |
+| 06  | Scroll Animation    | [Link](https://raubaca.github.io/50projects50days/scroll-animation/)    |
+| 07  | Split Landing Page  | [Link](https://raubaca.github.io/50projects50days/split-landing-page/)  |

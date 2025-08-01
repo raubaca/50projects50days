@@ -11,3 +11,6 @@ Repository for projects in the course.
 | 05  | Blurry Loading      | [Link](https://raubaca.github.io/50projects50days/blurry-loading/)      |
 | 06  | Scroll Animation    | [Link](https://raubaca.github.io/50projects50days/scroll-animation/)    |
 | 07  | Split Landing Page  | [Link](https://raubaca.github.io/50projects50days/split-landing-page/)  |
+| 08  | Form Input Wave     | [Link](https://raubaca.github.io/50projects50days/form-input-wave/)     |
+| 09  | Sound Board         | [Link](https://raubaca.github.io/50projects50days/sound-board/)         |
+| 10  | Dad Jokes           | [Link](https://raubaca.github.io/50projects50days/dad-jokes/)           |

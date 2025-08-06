@@ -17,3 +17,5 @@ Repository for projects in the course.
 | 11  | Event KeyCodes       | [Link](https://raubaca.github.io/50projects50days/event-keycodes/)       |
 | 12  | FAQ Collapse         | [Link](https://raubaca.github.io/50projects50days/faq-collapse/)         |
 | 13  | Random Choice Picker | [Link](https://raubaca.github.io/50projects50days/random-choice-picker/) |
+| 14  | Animated Navigation  | [Link](https://raubaca.github.io/50projects50days/animated-navigation/)  |
+| 15  | Increment Counter    | [Link](https://raubaca.github.io/50projects50days/increment-counter/)    |

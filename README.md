@@ -19,3 +19,4 @@ Repository for projects in the course.
 | 13  | Random Choice Picker | [Link](https://raubaca.github.io/50projects50days/random-choice-picker/) |
 | 14  | Animated Navigation  | [Link](https://raubaca.github.io/50projects50days/animated-navigation/)  |
 | 15  | Increment Counter    | [Link](https://raubaca.github.io/50projects50days/increment-counter/)    |
+| 16  | Drink Water          | [Link](https://raubaca.github.io/50projects50days/drink-water/)          |

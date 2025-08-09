@@ -20,3 +20,5 @@ Repository for projects in the course.
 | 14  | Animated Navigation  | [Link](https://raubaca.github.io/50projects50days/animated-navigation/)  |
 | 15  | Increment Counter    | [Link](https://raubaca.github.io/50projects50days/increment-counter/)    |
 | 16  | Drink Water          | [Link](https://raubaca.github.io/50projects50days/drink-water/)          |
+| 17  | Movie App            | [Link](https://raubaca.github.io/50projects50days/movie-app/)            |
+| 18  | Background Slider    | [Link](https://raubaca.github.io/50projects50days/background-slider/)    |

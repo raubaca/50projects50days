@@ -22,3 +22,5 @@ Repository for projects in the course.
 | 16  | Drink Water          | [Link](https://raubaca.github.io/50projects50days/drink-water/)          |
 | 17  | Movie App            | [Link](https://raubaca.github.io/50projects50days/movie-app/)            |
 | 18  | Background Slider    | [Link](https://raubaca.github.io/50projects50days/background-slider/)    |
+| 19  | Theme Clock          | [Link](https://raubaca.github.io/50projects50days/theme-clock/)          |
+| 20  | Button Ripple Effect | [Link](https://raubaca.github.io/50projects50days/button-ripple-effect/) |

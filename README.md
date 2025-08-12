@@ -24,3 +24,8 @@ Repository for projects in the course.
 | 18  | Background Slider    | [Link](https://raubaca.github.io/50projects50days/background-slider/)    |
 | 19  | Theme Clock          | [Link](https://raubaca.github.io/50projects50days/theme-clock/)          |
 | 20  | Button Ripple Effect | [Link](https://raubaca.github.io/50projects50days/button-ripple-effect/) |
+| 21  | Drag N Drop          | [Link](https://raubaca.github.io/50projects50days/drag-n-drop/)          |
+| 22  | Drawing App          | [Link](https://raubaca.github.io/50projects50days/drawing-app/)          |
+| 23  | Kinetic CSS Loader   | [Link](https://raubaca.github.io/50projects50days/kinetic-css-loader/)   |
+| 24  | Content Placeholder  | [Link](https://raubaca.github.io/50projects50days/content-placeholder/)  |
+| 25  | Sticky Navbar        | [Link](https://raubaca.github.io/50projects50days/sticky-navbar/)        |

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+}
+
+.container {
+  width: min(90vw, 1200px);
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  background-image: url("https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?q=80&w=1920");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .container {
+    position: relative;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  h1 {
+    margin: -20px 0 20px;
+    font-size: 48px;
+  }
+  p {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+
+.content {
+  :is(h2, h3) {
+    font-size: 150%;
+    margin: 20px 0;
+  }
+  p {
+    color: #555;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+  }
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  z-index: 1;
+  background-color: #222;
+  transition: background-color 0.3s ease-in-out;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: padding 0.3s ease-in-out;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+    &:is(.current, :hover) {
+      color: #c0392b;
+      font-weight: bold;
+    }
+  }
+  &.active {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    .container {
+      padding: 10px 0;
+    }
+    a {
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+:root {
+  --color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #2c3e50;
+}
+
+.kinetic {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 32px solid transparent;
+    animation: rotate 2s linear infinite;
+  }
+  &::after {
+    border-bottom-color: var(--color);
+    animation-delay: 0.5s;
+  }
+  &::before {
+    border-left-color: var(--color);
+  }
+}
+
+@keyframes rotate {
+  0%,
+  25% {
+    transform: rotate(0);
+  }
+  50%,
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

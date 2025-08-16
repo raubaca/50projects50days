@@ -34,3 +34,4 @@ Repository for projects in the course.
 | 28  | GitHub Profiles        | [Link](https://raubaca.github.io/50projects50days/github-profiles/)        |
 | 29  | Double Click Heart     | [Link](https://raubaca.github.io/50projects50days/double-click-heart/)     |
 | 30  | Auto Text Effect       | [Link](https://raubaca.github.io/50projects50days/auto-text-effect/)       |
+| 31  | Password Generator     | [Link](https://raubaca.github.io/50projects50days/password-generator/)     |

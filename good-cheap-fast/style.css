@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --color-on: #8e44ad;
+  --color-off: #d0d0d0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+input {
+  appearance: none;
+  border: 0;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin: 10px 0;
+}
+
+.toggle {
+  position: relative;
+  width: 80px;
+  height: 40px;
+  margin: 0 15px 0 0;
+  background-color: var(--color-off);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid var(--color-off);
+    animation: slideOff 0.3s linear forwards;
+    transition: border-color 0.2s linear;
+  }
+  &:checked {
+    background-color: var(--color-on);
+    &::before {
+      animation: slideOn 0.3s linear forwards;
+      border-color: var(--color-on);
+    }
+  }
+}
+
+@keyframes slideOn {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(20px) scale(1.25);
+  }
+  100% {
+    transform: translateX(40px) scale(1);
+  }
+}
+
+@keyframes slideOff {
+  0% {
+    transform: translateX(40px) scale(1);
+  }
+  50% {
+    transform: translateX(20px) scale(1.25);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}

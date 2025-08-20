@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+  --primary-color: #9ec862;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightblue;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  appearance: none;
+  cursor: pointer;
+  border: none;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.add {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 3px;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 320px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note-tools {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--primary-color);
+  button {
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+  }
+}
+
+.note-content {
+  flex: 1;
+  padding-inline: 20px;
+  .editmode & {
+    display: none;
+  }
+}
+
+.note-input {
+  display: none;
+  flex: 1;
+  margin: 20px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: 1px dashed rgba(0, 0, 0, 0.1);
+  outline: none;
+  resize: none;
+  .editmode & {
+    display: block;
+  }
+}
+
+.editmode .edit {
+  color: green;
+}

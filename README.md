@@ -36,3 +36,4 @@ Repository for projects in the course.
 | 30  | Auto Text Effect       | [Demo](https://raubaca.github.io/50projects50days/auto-text-effect/)       |
 | 31  | Password Generator     | [Demo](https://raubaca.github.io/50projects50days/password-generator/)     |
 | 32  | Good Cheap Fast        | [Demo](https://raubaca.github.io/50projects50days/good-cheap-fast/)        |
+| 33  | Notes App              | [Demo](https://raubaca.github.io/50projects50days/notes-app/)              |

@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #111;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 16px);
+  max-width: 320px;
+  &:hover {
+    cursor: none;
+  }
+}
+
+.square {
+  margin: 1px;
+  width: 14px;
+  height: 14px;
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  transition: 2s ease;
+  &:hover {
+    transition-duration: 0s;
+  }
+}

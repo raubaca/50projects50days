@@ -42,6 +42,7 @@ const addNewNote = (text = '') => {
   if (!text) textArea.focus();
 };
 
+// Update Local Storage
 const updateLS = () => {
   const notesText = document.querySelectorAll('textarea');
 

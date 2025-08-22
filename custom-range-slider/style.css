@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+h2 {
+  position: absolute;
+  top: 10px;
+}
+
+.range-container {
+  position: relative;
+}
+
+/* Input Styles */
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 18px 0;
+  width: 300px;
+  background: transparent;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  + label {
+    position: absolute;
+    top: -25px;
+    left: 110px;
+    width: 80px;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Track Styles */
+/* Chrome, Safari, Edge Chromium */
+input[type='range']::-webkit-slider-runnable-track {
+  height: 10px;
+  background: purple;
+  border-radius: 4px;
+}
+/* Firefox */
+input[type='range']::-moz-range-track {
+  height: 13px;
+  background-color: purple;
+  border-radius: 4px;
+}
+
+/* Thumb Styles */
+/* Chrome, Safari, Edge Chromium */
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -7px;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid purple;
+  cursor: pointer;
+}
+/* Firefox */
+input[type='range']::-moz-range-thumb {
+  margin-top: -7px;
+  height: 24px;
+  width: 24px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid purple;
+  cursor: pointer;
+}

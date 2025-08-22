@@ -46,6 +46,6 @@ Repository for projects in the course.
 | 40  | 3D Background Boxes          | [Demo](https://raubaca.github.io/50projects50days/3d-background-boxes/)          |
 | 41  | Verify Account UI            | [Demo](https://raubaca.github.io/50projects50days/verify-account-ui/)            |
 | 42  | Live User Filter             | [Demo](https://raubaca.github.io/50projects50days/live-user-filter/)             |
-| 43  | Live User Filter             | [Demo](https://raubaca.github.io/50projects50days/feedback-ui-design/)           |
+| 43  | Feedback UI Design           | [Demo](https://raubaca.github.io/50projects50days/feedback-ui-design/)           |
 | 44  | Custom Range Slider          | [Demo](https://raubaca.github.io/50projects50days/custom-range-slider/)          |
 | 45  | Netflix Mobile Navigation    | [Demo](https://raubaca.github.io/50projects50days/netflix-mobile-navigation/)    |

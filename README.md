@@ -1,6 +1,6 @@
 # 50 Projects in 50 Days
 
-Repository for projects in the course by @bradtraversy
+Repository for projects in the course by [@bradtraversy](https://github.com/bradtraversy)
 
 | Day | Project                      | Demo                                                                                |
 | :-: | ---------------------------- | ----------------------------------------------------------------------------------- |

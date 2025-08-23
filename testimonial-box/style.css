@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 10px;
+  font-family: Montserrat, sans-serif;
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+.testimonials-container {
+  position: relative;
+  max-width: 768px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  color: #fff;
+  background-color: #476ce4;
+  border-radius: 15px;
+}
+
+.testimonial {
+  text-align: justify;
+  line-height: 28px;
+  &::before,
+  &::after {
+    position: absolute;
+    top: 70px;
+    font: var(--fa-font-solid);
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  &::before {
+    content: '\f10d';
+    right: 40px;
+  }
+  &::after {
+    content: '\f10e';
+    left: 40px;
+  }
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .user-image {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .user-details {
+    margin-left: 10px;
+  }
+  .username {
+    margin: 0;
+  }
+  .role {
+    margin: 10px 0;
+  }
+}
+
+.progress-bar {
+  height: 4px;
+  width: 100%;
+  background-color: #fff;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+@media (width <= 600px) {
+  .testimonials-container {
+    padding: 20px 30px;
+  }
+  .testimonial::before,
+  .testimonial::after {
+    display: none;
+  }
+}

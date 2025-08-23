@@ -49,3 +49,8 @@ Repository for projects in the course.
 | 43  | Feedback UI Design           | [Demo](https://raubaca.github.io/50projects50days/feedback-ui-design/)           |
 | 44  | Custom Range Slider          | [Demo](https://raubaca.github.io/50projects50days/custom-range-slider/)          |
 | 45  | Netflix Mobile Navigation    | [Demo](https://raubaca.github.io/50projects50days/netflix-mobile-navigation/)    |
+| 46  | Quiz App                     | [Demo](https://raubaca.github.io/50projects50days/quiz-app/)                     |
+| 47  | Testimonial Box              | [Demo](https://raubaca.github.io/50projects50days/testimonial-box/)              |
+| 48  | Random Image Feed            | [Demo](https://raubaca.github.io/50projects50days/random-image-feed/)            |
+| 49  | Todo List                    | [Demo](https://raubaca.github.io/50projects50days/todo-list/)                    |
+| 50  | Insect Catch Game            | [Demo](https://raubaca.github.io/50projects50days/insect-catch-game/)            |
